@@ -33,7 +33,8 @@ Set up your virtual environment:
   bash-3.2 $ virtualenv env
   bash-3.2 $ source env/bin/activate
 
-Install django-polymorphic, which you can download from 'github <http://github.com/bconstantin/django_polymorphic/tarball/master>'.
+Install django-polymorphic, which you can download from `github
+<http://github.com/bconstantin/django_polymorphic/tarball/master>`_.
 
 Now install Django and nose in the virtual environment:
 
