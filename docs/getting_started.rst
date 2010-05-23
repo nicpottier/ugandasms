@@ -25,18 +25,26 @@ Check out the software from the repository:
 
   bash-3.2 $ git clone http://github.com/malthe/ugandasms.git
 
-Install Django inside a virtual environment:
+Set up your virtual environment:
 
 .. code-block:: bash
 
   bash-3.2 $ sudo easy_install virtualenv
   bash-3.2 $ virtualenv env
   bash-3.2 $ source env/bin/activate
+
+Install django-polymorphic, which you can download from 'github <http://github.com/bconstantin/django_polymorphic/tarball/master>'.
+
+Now install Django and nose in the virtual environment:
+
+.. code-block:: bash
+
   bash-3.2 $ easy_install Django==1.2
+  bash-3.2 $ easy_install nose
 
 .. note:: The system is compatible with Django 1.2 as of this time of writing.
 
-Run the tests to see if everything works:
+Finally, run the tests to see if everything works:
 
 .. code-block:: bash
 
